@@ -1,6 +1,28 @@
 body {
-  background-image: url("https://www.icegif.com/wp-content/uploads/2023/12/icegif-100.gif");
+  background-image: url('icegif-100.gif');
   background-size: cover;
+}
+
+#difficultyLevel{
+  font-size: 25px;
+}
+
+.dificultad-facil {
+  color: green; /* Verde para fácil */
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: rgb(0, 39, 3);
+}
+
+.dificultad-moderada {
+  color: orange; /* Naranja para moderado */
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: rgb(44, 24, 0);
+}
+
+.dificultad-dificil {
+  color: red; /* Rojo para difícil */
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: rgb(78, 0, 0)
 }
 
 .error{
@@ -30,4 +52,5 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  font-size: 25px;
 }
